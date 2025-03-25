@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: zsh
+        shell: bash
 
     steps:
       - name: Checkout code
