@@ -1,1 +1,1 @@
-bucket_name="urpdrum-us-east-1-terraform-action/env:/dev/terraform-infra-pipeline-md5"
+bucket_name="urpdrum-us-east-1-terraform-action"
