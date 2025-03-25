@@ -16,5 +16,5 @@ jobs:
       environment: prod
       aws-assume-role-arn: "arn:aws:iam::699475942539:role/github-actions-urpdrum-pipeline"
       aws-region: "us-east-1"
-      aws-statefile-s3-bucket: "urpdrum-us-east-1-terraform-action"
+      aws-statefile-s3-bucket: "urpdrum-us-east-1-teste-git"
       aws-lock-dynamodb-table: "urpdrum-us-east-1-terraform-lock"
