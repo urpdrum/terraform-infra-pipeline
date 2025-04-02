@@ -1,4 +1,4 @@
-name: "RenPROD DEPLOY"
+name: "PROD DEPLOY"
 
 on:
   push:
