@@ -1,9 +1,9 @@
-name: "DEV DEPLOY"
+name: "Renato DEPLOY"
 
 on:
   push:
     branches:
-      - develop
+      - Renato
 
 permissions:
   id-token: write
@@ -13,7 +13,7 @@ jobs:
   terraform:
     uses: ./.github/workflows/terraform.yml
     with:
-      environment: dev
+      environment: Renato
       aws-assume-role-arn: "arn:aws:iam::699475942539:role/github-actions-urpdrum-pipeline"
       aws-region: "us-east-1"
       aws-statefile-s3-bucket: "urpdrum-us-east-1-teste2-git"
